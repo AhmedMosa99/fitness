@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "787783974109",
+    "project_id": "gemamin-845b1",
+    "storage_bucket": "gemamin-845b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787783974109:android:a8f364a92d070fe8c7af34",
+        "android_client_info": {
+          "package_name": "com.fitness.package"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787783974109-1dc63g75r4jrtmb5qjas5pn81a17180t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_NuHLAS5HJalyfOm_hBCyTfG_3CJ10fQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787783974109-1dc63g75r4jrtmb5qjas5pn81a17180t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787783974109:android:2692cdd694d001dcc7af34",
+        "android_client_info": {
+          "package_name": "com.fitness_sudan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787783974109-1dc63g75r4jrtmb5qjas5pn81a17180t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_NuHLAS5HJalyfOm_hBCyTfG_3CJ10fQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787783974109-1dc63g75r4jrtmb5qjas5pn81a17180t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
