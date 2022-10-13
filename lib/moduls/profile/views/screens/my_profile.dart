@@ -167,6 +167,40 @@ class ProfileScreen extends StatelessWidget {
                     ],
                   )),
               SizedBox(
+                height: 10.h,
+              ),
+              InkWell(
+                  onTap: () async {
+                    Get.offAll(LoginScreen());
+                    token = null;
+                    await SharePref.init();
+                    await SharePref.removeKey('token');
+                  },
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        children: [
+                          Icon(
+                            Icons.logout,
+                            size: 25.w,
+                            color: Theme.of(context).primaryColor,
+                          ),
+                          SizedBox(
+                            width: 18.w,
+                          ),
+                          Text("حذف الحساب".tr,
+                              style: TextStyle(
+                                  fontSize: 18.sp,
+                                  fontWeight: FontWeight.w600)),
+                        ],
+                      ),
+                      Icon(Icons.arrow_forward_ios,
+                          size: 18.w, color: Theme.of(context).primaryColor)
+                    ],
+                  )),
+              SizedBox(
                 height: 15.h,
               ),
             ],
