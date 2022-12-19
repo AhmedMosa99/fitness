@@ -57,11 +57,13 @@ class _NotificationScreenState extends State<NotificationScreen> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text(logic.data[index].data!.title!,
-                              style: Theme.of(context)
-                                  .textTheme
-                                  .subtitle2!
-                                  .copyWith(color: Colors.white)),
+                          Expanded(
+                            child: Text(logic.data[index].data!.title!,
+                                style: Theme.of(context)
+                                    .textTheme
+                                    .subtitle2!
+                                    .copyWith(color: Colors.white)),
+                          ),
                           SizedBox(
                             height: 10.h,
                           ),

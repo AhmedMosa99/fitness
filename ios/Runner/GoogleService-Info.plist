@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>787783974109-16a63eoakmme6kk6gke3km9an6l786n9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.787783974109-16a63eoakmme6kk6gke3km9an6l786n9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD3JAXMJz3G_L0EPTCqyig0Z9i0G5sHbdc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>787783974109</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.amin.fitness</string>
+	<key>PROJECT_ID</key>
+	<string>gemamin-845b1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gemamin-845b1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:787783974109:ios:ef74a6a460e80644c7af34</string>
+</dict>
+</plist>
